@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div id="controls">
+      <div>W</div>
+      <div>A</div>
+      <div>S</div>
+      <div>D</div>
+    </div>
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <h1>You Won!</h1>
+        <p>Congratulations! You have won. Would you like to play again?</p>
+        <button class="try-again-btn" id="try-again-btn">Play Again</button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
